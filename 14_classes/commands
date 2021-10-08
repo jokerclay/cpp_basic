@@ -1,0 +1,2 @@
+g++ -c implementation.cpp
+g++ -o simple_class simple_class.cpp implementation.o
