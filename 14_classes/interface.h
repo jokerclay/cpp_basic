@@ -2,6 +2,8 @@
 // vector classes;
 // By: clay liu
 
+//  在头文件中定义 “字段”
+//  定义了这个程序里该有什么
 // a vector class that has all coordinates
 class vector1{
     public:

@@ -1,0 +1,3 @@
+g++ -c implement.cpp
+
+ g++ -o copy_constructor copy_constructor.cpp implement.o

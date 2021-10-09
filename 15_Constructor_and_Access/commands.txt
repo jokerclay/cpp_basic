@@ -1,0 +1,3 @@
+ g++ -c implement.cpp
+
+g++ -o Constructor_and_Access Constructor_and_Acces.cpp implement.os
