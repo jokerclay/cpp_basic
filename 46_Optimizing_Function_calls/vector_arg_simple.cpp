@@ -66,12 +66,13 @@ int main(int argc, char *argv[]){
         // cleare the array each time
         v.clear();
 
-        // load a new set of numbers 
-        v.load_numbers_value(v);
-        v.load_numbers_rvalue_ref_1(move(v));
-        v.load_numbers_rvalue_ref_2(move(v));
-    }
+       // load a new set of numbers 
+       //  v =  v.load_numbers_value(v);
+       v =  v.load_numbers_rvalue_ref_1(move(v));
+       // v =  v.load_numbers_rvalue_ref_2(move(v));
+       // v =  v.load_numbers_ref(v);
 
+    }
     return 0; 
 }
 
