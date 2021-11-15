@@ -1,0 +1,2 @@
+g++ -mavx -o simd_intrinsics simd_intrinsics.cpp
+g++ -mavx -o baseline baseline.cpp
