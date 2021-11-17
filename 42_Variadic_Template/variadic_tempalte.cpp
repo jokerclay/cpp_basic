@@ -5,13 +5,16 @@ using namespace std;
 // this is the base case for our recursive function
 // 递归函数的基类
 template <typename T>
+
 T adder(T v){
    cout<< __PRETTY_FUNCTION__ << endl; // print out how this function was called
    return  v;
 }
+
 // Variable number of input argument in a template
 // "typename... Args" is  a template parameter pack
 // "Args ... args " is a function parameter pack
+// "Args ... args " 将参数打包
 // We can use recursive calls unpack all the arguments
 
 template <typename T,typename... Args>
@@ -41,5 +44,4 @@ int main() {
 
     return 0;
 }
-
 
