@@ -62,6 +62,9 @@
 53. False Sharing in C++
 54. Short String Optimization
 55. Branch Prediction with Dynamic Dispatch
+-------------------------------------------------------------------------------
+the following part will learn later
+-------------------------------------------------------------------------------
 56. Diagnosing Performance Bugs Pt. 1
 57. Diagnosing Performance Bugs Pt. 2
 58. Return Value Optimization
