@@ -22,12 +22,8 @@ int main () {
   // 同样适用于浮点数
   std::cout << "max(3.14,2.73) == " << std::max(3.14,2.73) << '\n';
 
-  // max() 函数相当于一下的函数模板
-  template <class T> const T& max (const T& a, const T& b) {
-      return (a<b)?b:a;     
-      // or: 
-      // return comp(a,b)?b:a; 
-    }
+  // 两个数相等时返回相等数
+  std::cout << "max(1,1) == " << std::max(1,1) << '\n';
 
   return 0;
 }

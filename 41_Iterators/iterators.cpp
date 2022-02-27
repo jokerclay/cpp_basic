@@ -42,12 +42,13 @@ int main(){
 
     // Reverse iterator backward
     for(auto i = int_vec.rbegin(); i!= int_vec.rend(); i++){
+
         // Dereference the iterator just like a point 
         cout << *i << " " ;
+
     };
     cout << endl;
 
 
 
     return 0;
-}
