@@ -1,5 +1,5 @@
 // This program show off the array in c++
-// By: clay liu
+
 #include<iostream>
 using namespace std;
 
@@ -43,12 +43,6 @@ int main(){
     // print out both of the hello world
     cout << hw_array << endl;
     cout << hw_string << endl;
-
-    
-
-
-
-
 
     return 0;
 }
