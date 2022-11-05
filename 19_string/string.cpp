@@ -32,7 +32,9 @@ int main(){
     // Replace all the characters with 'a'  and print
     // at 方法 找 字符串中的 某个位置的 字符与 srt1[1] 功能一样
 
-    for (int i = 0; i < str1.size(); i++ ){
+    int str1_size = str1.size();
+
+    for (int i = 0; i < str1_size; i++ ){
         str1.at(i) = 'a';
     } 
 
@@ -123,6 +125,13 @@ int main(){
     cout << str1 << endl;
     cout << "Size : " << str1.size() << endl;
     cout << "Capacity : " << str1.capacity() << endl;
+
+    cout << "----------- string + --------------" <<endl;
+    
+    string name = "clay";
+    cout << name +  "  liu" <<endl;
+    
+
 
 
     return 0;

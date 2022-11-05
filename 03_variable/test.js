@@ -1,6 +1,5 @@
-var a;
-let b;
-// const c;
-console.log(a)
-console.log(b)
+var a = 1;
+let b = "testing";
+console.log(a);
+console.log(b);
 // console.log(c)

@@ -8,10 +8,9 @@
 
 using namespace std;
 
-
 // 打印出 vector 中的 每个元素
 void print_vector(vector<int> &v){
-    for (int i = 0; i < v.size(); i++){
+    for (long unsigned int i = 0; i < v.size(); i++){
         cout << v[i] << " ";
     }
     cout << endl;
@@ -28,6 +27,7 @@ int main(){
         // Method for expanding vector 
         v1.push_back(i);
     }
+
     // print the vector
     print_vector(v1);
 
@@ -41,7 +41,7 @@ int main(){
 
     // Print the first element using array like indexing
     // 使用数组的形式打印出第一个 元素
-    cout << "First  element using array like indexing : " <<  v1[0] <<endl;
+    cout << "First  element using array like indexing : " <<  v1[2] <<endl;
 
     // clear the  vector and print out it's size
     // 将 vector 清空, 并打印 vector 的 大小
@@ -86,7 +86,4 @@ int main(){
 
     return 0;
 }
-
-
-
 

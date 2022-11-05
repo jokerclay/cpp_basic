@@ -29,8 +29,6 @@ int main(){
 
     // Dump all the value in the map 
     // 倒出 map 中的所有值
-    for(auto itr = contants.begin(); itr != contants.end(); itr++){
-        cout << "Key: "<< itr->first << " Value: " << itr-> second << endl;
     }
 
     // Example of how to check of a value is in the map
